@@ -40,7 +40,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -61,6 +61,10 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  概念: concept
+  编程: programming
+  生活: life
+	其他: other
 tag_map:
 
 # Date / Time format
